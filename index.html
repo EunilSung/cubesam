@@ -39,7 +39,8 @@
 
   /* hero */
   .hero{padding-top:0}
-  .hero-img{width:100%;aspect-ratio:4/3;object-fit:cover;object-position:center}
+  .hero-img{width:100%;max-width:560px;margin:0 auto;aspect-ratio:4/3;object-fit:cover;object-position:center}
+  @media (min-width:600px){.hero-img{border-radius:0 0 20px 20px}}
   .hero .wrap{margin-top:-28px;position:relative}
   .hero-card{background:var(--card);border-radius:20px;padding:26px 22px;box-shadow:0 8px 30px rgba(40,30,20,.08)}
   .hero-card .btn{margin-top:22px}
